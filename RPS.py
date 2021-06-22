@@ -1,8 +1,9 @@
+
 import random
 
 RPS = ["rock", "paper", "scissors"]
 player_choice = int(input("Please make your choise. Type 0 for Rock, 1 for Paper or 2 for Scissors: \n"))
-print(RPS[player_choice])
+print(player_choice)
 
 computer_choice = random.randint(0,2)
 print("Computer chose:")
@@ -23,4 +24,4 @@ elif player_choice == 1 and computer_choice == 2:
 elif player_choice == 2 and computer_choice == 0:
     print("Computer wins")
 elif player_choice == 2 and computer_choice == 1:
-    print("Player wins")                   
+    print("Player wins")                
