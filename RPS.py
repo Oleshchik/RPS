@@ -1,34 +1,34 @@
-
 import random
 
 class RPS:
 
-    def __init__(self):
+    def __init__(self, rps):
+        self.rps = rps
+
+    def data_input(self):
+        player_choice = input("Please make your choise. Type 0 for Rock, 1 for Paper or 2 for Scissors (q to quit): \n")
+        return player_choice
+
+    def player_choice(pc):
+        player_choice = int(pc)
+        return player_choice
+
+    def computer_choice(self):
+        computer_choice = random.randint(0,2)
+        return computer_choice
+    
+    def except_errors(self):
         pass
 
-def elements():
-    pass
+    def play_game(self):
+        pass
 
-def data_input(self):
-    pass
+    def main(self):
+        pc = self.data_input()
+        cc = self.computer_choice()
 
-def player_choice(self):
-    pass
-    
-def computer_choice(self):
-    pass
-
-def except_errors():
-    pass
-
-def play_game():
-    pass
-
-def main():
-    pass
-    
-if __name__ == '__main__':
-    pass
+    if __name__ == '__main__':
+        pass
 
 
 # import sys
