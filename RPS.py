@@ -6,16 +6,13 @@ class RPS:
         self.rps = rps
 
     def data_input(self):
-        player_choice = input("Please make your choise. Type 0 for Rock, 1 for Paper or 2 for Scissors (q to quit): \n")
-        return player_choice
+        pass
 
-    def player_choice(pc):
-        player_choice = int(pc)
-        return player_choice
+    def player_choice():
+        pass
 
     def computer_choice(self):
-        computer_choice = random.randint(0,2)
-        return computer_choice
+        pass
     
     def except_errors(self):
         pass
@@ -24,8 +21,7 @@ class RPS:
         pass
 
     def main(self):
-        pc = self.data_input()
-        cc = self.computer_choice()
+        pass
 
     if __name__ == '__main__':
         pass
