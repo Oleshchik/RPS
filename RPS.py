@@ -8,7 +8,7 @@ class RPS:
     def data_input(self):
         pass
 
-    def player_choice():
+    def player_choice(self):
         pass
 
     def computer_choice(self):
